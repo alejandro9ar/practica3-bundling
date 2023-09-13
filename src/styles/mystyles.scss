@@ -1,0 +1,30 @@
+@import "theme";
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.red-background {
+  background-color: $base-color;
+}
+
+h1 {
+  line-height: 1;
+  text-align: center;
+  background-color: $base-color;
+}
+
+img {
+  max-height: 400px;
+  border-radius: 5%;
+  border: solid 2px;
+  border-color: $base-color;
+  }
+
+#app{
+  background-color: #b75f5f;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+}
