@@ -5,7 +5,7 @@ const path = require("path");
 
 module.exports = {
   resolve: {
-    extensions: ['.ts']
+    extensions: ['.js','.ts']
   },
   entry: {
     app: ["./src/students.ts"],
